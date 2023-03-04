@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* increase the height of the container */
+}
+
+.light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  height: 60%; /* increase the height of the light element */
+}
+
+.light i {
+  font-size: 80px;
+  color: #f1c40f;
+  margin-bottom: 20px;
+}
+
+.light h1 {
+  font-size: 36px;
+  color: #333;
+  text-align: center;
+  margin: 20px;
+  line-height: 1.2;
+}
+
+.light.off i {
+  color: #aaa;
+}
+
+.number {
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
