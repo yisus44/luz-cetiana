@@ -38,7 +38,6 @@ const renderData = (data) => {
     light.appendChild(student);
     student.appendChild(icon);
     totalHeight += student.offsetHeight; // add the height of each card element to the total height
-    console.log(element);
   }
   light.style.height = `calc(60% + ${totalHeight}px)`; // adjust the height of the light element based on the total height of the card elements
 };
