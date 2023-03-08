@@ -27,7 +27,7 @@ const renderData = (data) => {
     const [firstMeasure] = element.mesures;
     const firstMeasureValue = firstMeasure ? firstMeasure.mesure : 0;
 
-    if (firstMeasureValue < 50) {
+    if (firstMeasureValue < 51) {
       icon.classList.add("off");
     }
     student.classList.add("card");
